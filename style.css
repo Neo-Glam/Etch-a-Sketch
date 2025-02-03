@@ -1,11 +1,45 @@
+body{
+    background-color: rgba(202, 121, 54, 0.747);
+}
+
+
 #boite{
+    flex-shrink: 0;
+    flex-grow: 0;
     border: solid;
+    border-color: red;
     display: flex;
     justify-self: center;
     height: 800px;
     width: 800px;
     flex-wrap: wrap;
+    background-color: white;
 }
 
-.box{
+#container{
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: red;
+    background-color: red;
+    justify-self: center;
+}
+
+
+#bouton{
+    display: flex;
+    margin-right: 10px;
+    height: 200px;
+    width: 200px
+
+}
+
+button{
+    border-radius: 15px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+    font-weight: bold;
 }
